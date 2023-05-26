@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+
+.container{
+	max-width: 1140px;
+	margin: auto;
+	padding: 10px;
+	color: aquamarine;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.Logo img{
+	width: 100px;
+}
+.justfiy-content{
+	justify-content : space-between;
+}
+.align-item{
+	align-items: center;
+}
+.shopbtn a{
+	text-decoration: none;
+	background-color: rgb(58, 55, 55);
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+.active{
+	color: #DA3636;
+	text-decoration: none;
+}
